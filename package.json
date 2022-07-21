@@ -13,11 +13,11 @@
     "url": "https://github.com/AnomalyInnovations/serverless-typescript-starter.git"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.64",
+    "@types/aws-lambda": "^8.10.101",
     "@types/jest": "^26.0.14",
-    "serverless-bundle": "3.2.1",
-    "serverless-dotenv-plugin": "^3.0.0",
-    "serverless-offline": "^6.8.0"
+    "serverless-bundle": "5.4.0",
+    "serverless-dotenv-plugin": "^4.0.1",
+    "serverless-offline": "^9.0.0"
   },
   "dependencies": {}
 }
