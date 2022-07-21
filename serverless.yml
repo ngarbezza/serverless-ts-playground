@@ -1,7 +1,7 @@
 # NOTE: update this with your service name
 service: serverless-typescript-starter
 
-# Create an optimized package for our functions 
+# Create an optimized package for our functions
 package:
   individually: true
 
@@ -20,8 +20,8 @@ provider:
   # the following line. Also, make sure to not
   # commit your .env.
   #
-  #environment:
-  #  SAMPLE_ENV_VAR: ${env:SAMPLE_ENV_VAR}
+  environment:
+    SAMPLE_ENV_VAR: ${env:SAMPLE_ENV_VAR}
 
 functions:
   hello:
