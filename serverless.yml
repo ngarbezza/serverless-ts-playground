@@ -12,7 +12,7 @@ plugins:
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs16.x
   stage: dev
   region: us-east-1
   # To load environment variables externally
@@ -30,3 +30,9 @@ functions:
       - http:
           path: hello
           method: get
+
+custom:
+  bundle:
+    disableForkTsChecker: true
+    packager: npm
+    linting: true
