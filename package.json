@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.102",
-    "@types/jest": "^28.1.7",
+    "@types/jest": "^29.0.0",
     "serverless-bundle": "5.4.0",
     "serverless-dotenv-plugin": "^4.0.2",
     "serverless-offline": "^9.2.6"
