@@ -17,7 +17,7 @@
     "@types/jest": "^29.1.1",
     "serverless-bundle": "5.5.0",
     "serverless-dotenv-plugin": "^4.0.2",
-    "serverless-offline": "^10.3.0"
+    "serverless-offline": "^11.0.1"
   },
   "dependencies": {}
 }
